@@ -37,6 +37,6 @@ DNS - Reverse Scan	542.1	36
 DNS - Brute Force	542.1	37
 DNS - Recon Tools	542.1	38
 ```
-## HTML File
-The HTML file can be opened with the browser of your choice. From here, you can print your index as a single column data string, or you can copy and paste the data into a word processor (preserving the colors) and convert it into a two column document for a more professional appearance.
+## HTML File - End Result
+This file is produced as the end result. It displays your index in an alphabetically sorted manner, with some color formatting. The HTML file can be opened with the browser of your choice. From here, you can print your index as a single column data string, or you can copy and paste the data into a word processor (preserving the colors) and convert it into a two column document for a more professional appearance.
 
