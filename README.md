@@ -15,12 +15,18 @@ On start, the tool will prompt you for the current book that you're studying. Th
 Please specify the current book that you are indexing (Ex. '542.2')
 Current Book:
 ```
-After a book has been specified, the tool will ask you to enter a topic keyword and its associated page number.
+After a book has been specified, the tool will ask you to enter a topic keyword and its associated page number. 
 ```
-Please enter the page keyword(s) and then the page number(s) for each entry.
+Please enter the book page keyword(s) and then the page number(s) for each entry.
 Type 'quit' or 'exit' to save progress, generate html file, and exit this script.
 
 Enter topic keyword     : WebSocket, Implementation
 Enter page number       : 139
 Entry Added...
+
+Enter topic keyword     :
 ```
+After pressing enter, the entry will be added and the tool prompts for another entry. This is an infinite loop that can be closed by typing 'exit' or 'quit' at the keyword prompt. This action will save the data file and generate an html file from the data file.
+## HTML File
+The HTML file can be opened with the browser of your choice. From here, you can print your index as a single column data string, or you can copy and paste the data into a word processor and convert it into two columns.
+
