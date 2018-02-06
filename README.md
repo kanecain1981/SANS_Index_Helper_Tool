@@ -20,8 +20,8 @@ After a book has been specified, the tool will ask you to enter a topic keyword 
 Please enter the book page keyword(s) and then the page number(s) for each entry.
 Type 'quit' or 'exit' to save progress, generate html file, and exit this script.
 
-Enter topic keyword     : WebSocket, Implementation
-Enter page number       : 139
+Enter topic keyword(s)  : WebSocket, Implementation
+Enter page number(s)    : 139
 Entry Added...
 
 Enter topic keyword     :
