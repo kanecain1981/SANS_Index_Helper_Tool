@@ -26,7 +26,7 @@ Entry Added...
 
 Enter topic keyword     :
 ```
-After pressing enter, the entry will be added and the tool prompts for another entry. This is an infinite loop that can be closed by typing 'exit' or 'quit' at the keyword prompt. This action will save the data file and generate an html file from the data file.
+After pressing Enter, the entry will be added and the tool prompts for another entry. This is an infinite loop that can be closed by typing 'exit' or 'quit' at the keyword prompt. This action will save the data file (CVS format) and generate an html file from the data file.
 ## HTML File
-The HTML file can be opened with the browser of your choice. From here, you can print your index as a single column data string, or you can copy and paste the data into a word processor and convert it into two columns.
+The HTML file can be opened with the browser of your choice. From here, you can print your index as a single column data string, or you can copy and paste the data into a word processor (preserving the colors) and convert it into a two column document for a more professional appearance.
 
