@@ -3,11 +3,11 @@ Python command line tool used for generating GIAC Certification indexes. Provide
 
 ## Usage and Requirements
 The tool requires Python 2.7 at a minimal. To start the program, create a folder and place the script within. Run the script with the following syntax:
+```
 $ python sans_index_generator.py
-
+```
 ## Instructions
 On start, the tool will prompt you for the current book that you're studying. This will mark each new entry with a book number. If you want to switch books, exit out of the script and re-open.
-
 ```
 -----------------------------------------------------------------------
 |                    Cain's SANS Index Generator                      |
