@@ -10,7 +10,7 @@ $ python sans_index_generator.py
 On start, the tool will prompt you for the current book that you're studying. This will mark each new entry with a book number. If you want to switch books, exit out of the script and re-open.
 ```
 -----------------------------------------------------------------------
-|                    Cain's SANS Index Generator                      |
+|                        SANS Index Generator                         |
 -----------------------------------------------------------------------
 Please specify the current book that you are indexing (Ex. '542.2')
 Current Book:
