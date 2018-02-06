@@ -28,7 +28,7 @@ Enter topic keyword     :
 ```
 After pressing Enter, the entry will be added and the tool prompts for another entry. This is an infinite loop that can be closed by typing 'exit' or 'quit' at the keyword prompt. This action will save the data file (CVS format) and generate an html file from the data file.
 ## Data File
-This is the CSV file generated from your data input. Keep a backup of this file just in case, as it hold all of your inputed data. Here is an example of what the file looks like:
+This is the CSV file generated from your data input. Keep a backup of this file just in case, as it holds all of your inputted data. Here is an example of what the file looks like:
 ```
 DNS, Introduction	542.1	33
 DNS, Reverse Scan	542.1	36
