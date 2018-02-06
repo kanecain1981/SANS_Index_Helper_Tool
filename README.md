@@ -6,7 +6,7 @@ The tool requires Python 2.7 at a minimal. To start the program, create a folder
 $ python sans_index_generator.py
 ```
 ## Purpose
-From experience, I've noticed that a GIAC index needs to be light and easy to use. On average, you will have 1:30-2:00 minutes to answer each question on the tests. This tool allows you to create a basic index that is more than sufficient for use. An index that is too verbose can lead to longer lookup times resulting in test time loss. Nothing replaces knowing the material, but a good index can allow you to quickly search for information if needed.
+From experience, I've noticed that a GIAC index needs to be light and easy to use. On average, you will have 1:00-2:00 minutes to answer each question on the tests. This tool allows you to create a basic index that is more than sufficient for use. An index that is too verbose can lead to longer lookup times resulting in test time loss. Nothing replaces knowing the material, but a good index can allow you to quickly search for information if needed.
 On start, the tool will prompt you for the current book that you're studying. This will mark each new entry with a book number. If you want to switch books, exit out of the script and re-open.
 ## Instructions
 ```
