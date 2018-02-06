@@ -8,9 +8,4 @@ $ python sans_index_generator.py
 ## Instructions
 On start, the tool will prompt you for the current book that you're studying.
 
------------------------------------------------------------------------
-|                    Cain's SANS Index Generator                      |
------------------------------------------------------------------------
-Please specify the current book that you are indexing (Ex. '542.2')
-Current Book:
 
