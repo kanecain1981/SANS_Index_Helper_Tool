@@ -7,13 +7,13 @@ def main():
 	book = []
 	page = []
 	
-	print "-----------------------------------------------------------------------"
-	print "|                        SANS Index Generator                         |"
-	print "-----------------------------------------------------------------------"
-	print "Please specify the current book that you are indexing (Ex. '542.2')"
-	working_book = raw_input("Current Book: ")
-	print "Please enter the book page keyword(s) and then the page number(s) for each entry."
-	print "Type 'quit' or 'exit' to save progress, generate html file, and exit this script.\n"
+	print( "-----------------------------------------------------------------------")
+	print( "|                        SANS Index Generator                         |")
+	print( "-----------------------------------------------------------------------")
+	print( "Please specify the current book that you are indexing (Ex. '542.2')" )
+	working_book = input("Current Book: ")
+	print( "Please enter the book page keyword(s) and then the page number(s) for each entry." )
+	print( "Type 'quit' or 'exit' to save progress, generate html file, and exit this script.\n" )
 
 	with open('index.html', 'w') as file:
 		file.write("<style>.title{color: black;font-weight: bold;}</style>\n")
@@ -22,14 +22,14 @@ def main():
 	
 	while True:
 		keyword = ''
-		keyword = raw_input('Enter topic keyword(s)	: ')
+		keyword = input('Enter topic keyword(s)	: ')
 		if keyword == 'quit':
 			break
 		elif keyword == 'exit':
 			break
 		
 		insert_book = str(working_book).strip()
-		insert_page = raw_input('Enter page number(s)	: ')
+		insert_page = input('Enter page number(s)	: ')
 		
 		line = keyword + '\t' + insert_book + '\t' + insert_page
 		
@@ -37,7 +37,7 @@ def main():
 			output_file.write(line)
 			output_file.write('\n')
 		
-		print 'Entry Added...\n'
+		print ( 'Entry Added...\n' )
 	
 	with open('data_file', 'r') as out_file:
 		for line in out_file:
