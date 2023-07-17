@@ -1,7 +1,7 @@
 # SANS-Index-Helper-Tool
 Python command line tool used for generating GIAC Certification book indexes. Provides a command line interface to create a SANS book index for your GIAC certification attempts. This is a simpler evolution of Matthew Toussain's tool at https://github.com/0sm0s1z/Xenocrates.
 ## Usage and Requirements
-The tool requires Python 2.7 at a minimal. To start the program, create a folder and place the script within. Run the script with the following syntax:
+The tool requires Python 3. To start the program, create a folder and place the script within. Run the script with the following syntax:
 ```
 $ python sans_index_generator.py
 ```
